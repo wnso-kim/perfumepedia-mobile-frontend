@@ -20,6 +20,7 @@ module.exports = {
     sourceType: "module",
   },
   rules: {
+    quotes: ["error", "double"],
     "arrow-body-style": "off",
     "no-console": "off",
     "react/react-in-jsx-scope": "off",
@@ -38,5 +39,8 @@ module.exports = {
     "object-curly-newline": "off",
     "react/no-children-prop": "off",
     indent: "off",
+    "react/button-has-type": "off",
+    "react/jsx-boolean-value": "off",
+    "react/function-component-definition": "off",
   },
 };
