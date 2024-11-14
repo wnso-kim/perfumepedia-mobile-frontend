@@ -10,7 +10,7 @@
   }
 
   body {
-    font-size: 1.6rem; /* 확인 */
+    font-size: 1.6rem;
     font-family: "Pretendard";
     font-weight: 400;
   }
@@ -33,7 +33,7 @@
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: #5534da; /* 스크롤바 핸들의 배경 색상 (Violet) */
+    background-color: #727272; /* 스크롤바 핸들의 배경 색상 (Violet) */
     border-radius: 8px;
   }
 
@@ -69,13 +69,13 @@
 
   /* 스크롤바 핸들 스타일 */
   .scrollbar-hide::-webkit-scrollbar-thumb {
-    background-color: #5534da; /* 스크롤바 핸들의 배경 색상 (Violet) */
+    background-color: #727272; /* 스크롤바 핸들의 배경 색상 */
     border-radius: 8px;
   }
 
   /* 호버 시 스크롤바 핸들 스타일 변경 */
   .scrollbar-hide:hover::-webkit-scrollbar-thumb {
-    background-color: #5534da; /* 호버 시 스크롤바 핸들의 배경 색상을 어둡게 조정 */
+    background-color: #333236; /* 호버 시 스크롤바 핸들의 배경 색상을 어둡게 조정 */
   }
 
   :root {
