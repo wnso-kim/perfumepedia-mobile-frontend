@@ -21,6 +21,7 @@ module.exports = {
   },
   rules: {
     quotes: ["error", "double"],
+    "arrow-parens": ["error", "always"],
     "arrow-body-style": "off",
     "no-console": "off",
     "react/react-in-jsx-scope": "off",
