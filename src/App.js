@@ -5,6 +5,8 @@ import {
   SubmitButton,
   ChangeButton,
 } from "./test/TestButton";
+import InputTest from "./test/TestInput";
+import SearchInputTest from "./test/TestSearchInput";
 
 function App() {
   return (
@@ -17,6 +19,10 @@ function App() {
         <CheckButton />
         <SubmitButton />
         <ChangeButton />
+      </div>
+      <div>
+        <InputTest />
+        <SearchInputTest />
       </div>
     </div>
   );
