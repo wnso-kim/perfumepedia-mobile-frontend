@@ -1,29 +1,22 @@
-import {
-  DefaultButton,
-  DisabledButton,
-  CheckButton,
-  SubmitButton,
-  ChangeButton,
-} from "./test/TestButton";
-import InputTest from "./test/TestInput";
-import SearchInputTest from "./test/TestSearchInput";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Main from "./page/Main";
+import Test from "./page/Test";
+import Manager from "./page/Manager";
+import RequestList from "./page/RequestList";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold text-red-500">Tailwind TEST</h1>
-      {/* button test */}
-      <div className="flex flex-col gap-1">
-        <DefaultButton />
-        <DisabledButton />
-        <CheckButton />
-        <SubmitButton />
-        <ChangeButton />
-      </div>
-      <div>
-        <InputTest />
-        <SearchInputTest />
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="test" element={<Test />} />
+          <Route path="manager">
+            <Route index element={<Manager />} />
+            <Route path="request-list" element={<RequestList />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
