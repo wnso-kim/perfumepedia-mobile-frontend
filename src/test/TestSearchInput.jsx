@@ -1,7 +1,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import SearchInput from "../components/common/SearchInput";
-import searchIcon from "../asset/searchIcon.svg";
+import searchIcon from "../asset/icon/searchIcon.svg";
 
 const SearchInputTest = () => {
   const { register, handleSubmit } = useForm();
