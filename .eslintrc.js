@@ -25,7 +25,7 @@ module.exports = {
     "arrow-body-style": "off",
     "no-console": "off",
     "react/react-in-jsx-scope": "off",
-    "react/jsx-filename-extension": [1, { extensions: [".js", "jsx"] }],
+    "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
     "react/prop-types": "off",
     "linebreak-style": 0,
     "react/jsx-props-no-spreading": "off",
