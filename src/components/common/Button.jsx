@@ -6,13 +6,14 @@ const Button = ({
   onClick = () => {},
   className,
   children,
+  isChange,
 }) => (
   <button
     id={id}
     type={type}
     disabled={disabled}
     onClick={onClick}
-    className={`w-[16rem] h-[5rem] text-[1.8rem] text-white bg-[#333236] rounded-lg disabled:bg-[#A6A6A6] focus:bg-[#D9D9D9] focus:text-[#333236] focus:border focus:border-[#C9C9C9] ${className}`}
+    className={`w-[16rem] h-[5rem] text-[1.8rem]  bg-gray-33  disabled:bg-gray-a6 focus:bg-gray-d9 focus:text-gray-33 focus:border focus:border-gray-c9 ${className} ${isChange ? "text-gray-33 rounded-[50px]" : "text-white rounded-lg"}`}
   >
     {children}
   </button>

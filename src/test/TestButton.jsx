@@ -29,13 +29,10 @@ export const SubmitButton = () => {
     </Button>
   );
 };
-// 변경 버튼(기본과 디자인 다름)
+// 변경 버튼(기본과 다르게 isChange만의 디자인을 적용)
 export const ChangeButton = () => {
   return (
-    <Button
-      id="change"
-      className="w-[17.6rem] h-[4rem] rounded-[50px] border border-[#D9D9D9] bg-[#FFF] text-[#333236]"
-    >
+    <Button id="change" className="w-[17.6rem] h-[4rem]  border  border-gray-d9 bg-white " isChange>
       닉네임 변경
     </Button>
   );
