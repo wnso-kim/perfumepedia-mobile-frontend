@@ -2,9 +2,9 @@ import Header from "../components/common/Header";
 
 const Manager = () => {
   return (
-    <div>
+    <>
       <Header />
-      <main className="w-[30.2rem] mt-[7.2rem] ml-[3.6rem] font-medium flex flex-col gap-[5.5rem] justify-center items-center">
+      <main className="w-[30.2rem] mt-[7.2rem] ml-[3.6rem] flex flex-col gap-[5.5rem] justify-center items-center">
         <h1 className="text-[4rem]">관리자 페이지</h1>
         <div className="flex gap-[2.6rem] text-[3.2rem]">
           <section className="w-[13.8rem] h-[16rem] rounded-[1.5rem] bg-white border border-solid border-gray-d9 flex flex-col justify-center items-center">
@@ -34,7 +34,7 @@ const Manager = () => {
           </div>
         </section>
       </main>
-    </div>
+    </>
   );
 };
 export default Manager;
