@@ -1,3 +1,4 @@
+import Header from "../components/common/Header";
 import {
   DefaultButton,
   DisabledButton,
@@ -11,6 +12,7 @@ import SearchInputTest from "../test/TestSearchInput";
 const Test = () => {
   return (
     <>
+      <Header />
       {/* button test */}
       <div className="flex flex-col gap-1">
         <DefaultButton />
