@@ -12,6 +12,7 @@ module.exports = {
           c9: "#C9C9C9",
           33: "#333236",
           a6: "#A6A6A6",
+          fa: "#FAFAFA",
         },
       },
     },

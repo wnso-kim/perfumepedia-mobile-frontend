@@ -6,7 +6,7 @@ import RequestList from "./page/RequestList";
 
 function App() {
   return (
-    <div className="App">
+    <div className="max-w-[375px] h-screen mx-auto bg-gray-fa shadow-md">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Main />} />
