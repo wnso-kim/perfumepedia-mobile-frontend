@@ -60,6 +60,28 @@ const RequestAdd = () => {
               register={register}
               error={errors.username}
             />
+            {/* 혼합일 경우 */}
+            {/* <Input
+              label="탑 노트"
+              name="top"
+              placeholder="이메일을 입력해주세요"
+              register={register}
+              error={errors.username}
+            />
+            <Input
+              label="미들 노트"
+              name="middle"
+              placeholder="이메일을 입력해주세요"
+              register={register}
+              error={errors.username}
+            />
+            <Input
+              label="베이스 노트"
+              name="base"
+              placeholder="이메일을 입력해주세요"
+              register={register}
+              error={errors.username}
+            /> */}
           </section>
           <Button id="submit" type="submit" className="w-[35rem]">
             등록 요청하기
