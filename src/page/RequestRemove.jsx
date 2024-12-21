@@ -83,8 +83,11 @@ const RequestRemove = () => {
               error={errors.username}
             /> */}
           </section>
-          <Button id="submit" type="submit" className="w-[35rem]">
-            삭제 요청하기
+          <Button id="submit" type="submit" className="w-[35rem] mb-[0.8rem]">
+            삭제하기
+          </Button>
+          <Button id="reject" className="w-[35rem]">
+            거절
           </Button>
         </form>
       </main>
