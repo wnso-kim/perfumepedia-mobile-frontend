@@ -13,6 +13,7 @@ module.exports = {
           33: "#333236",
           a6: "#A6A6A6",
           fa: "#FAFAFA",
+          ee: "#EEEEEE",
         },
       },
     },
