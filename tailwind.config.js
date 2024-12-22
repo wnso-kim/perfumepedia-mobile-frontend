@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Pretendard", "ui-sans-serif", "system-ui", "Paperlogy"],
+        pretendard: ["Pretendard", "sans-serif"],
+        paperlogy: ["Paperlogy", "sans-serif"],
       },
       colors: {
         gray: {

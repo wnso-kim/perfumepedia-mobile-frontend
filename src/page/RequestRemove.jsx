@@ -19,7 +19,7 @@ const RequestRemove = () => {
     <>
       <Header />
       <main className="flex flex-col justify-center items-center">
-        <h1 className="text-20 mt-[1.9rem] mb-[2.4rem]">삭제 요청 페이지</h1>
+        <h1 className="text-20 mt-[1.9rem] mb-[2.4rem] font-[Paperlogy]">삭제 요청 확인 페이지</h1>
         <div className="w-[20rem] h-[20rem] border border-solid border-gray-d9 rounded-[1rem] bg-gray-ee flex justify-center items-center">
           <img src={imageIcon} alt="이미지 아이콘" />
         </div>

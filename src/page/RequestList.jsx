@@ -4,7 +4,7 @@ const RequestList = () => {
   return (
     <>
       <Header />
-      <main className="w-[32.4rem] mt-[3.4rem] ml-[2.5rem]">
+      <main className="w-[32.4rem] mt-[3.4rem] ml-[2.5rem] font-[Paperlogy]">
         <nav className="h-[10.7rem] flex gap-[2.4rem] text-[2.4rem]">
           <section className="w-[9.2rem] rounded-[1.5rem] bg-white border border-solid border-gray-d9 flex flex-col justify-center items-center">
             <p>등록</p>
