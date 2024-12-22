@@ -7,16 +7,18 @@ const Button = ({
   className,
   children,
   isChange,
-}) => (
-  <button
-    id={id}
-    type={type}
-    disabled={disabled}
-    onClick={onClick}
-    className={`w-[16rem] h-[5rem] text-[1.8rem]  bg-gray-33  disabled:bg-gray-a6 focus:bg-gray-d9 focus:text-gray-33 focus:border focus:border-gray-c9 ${className} ${isChange ? "text-gray-33 rounded-[50px]" : "text-white rounded-lg"}`}
-  >
-    {children}
-  </button>
-);
+}) => {
+  return (
+    <button
+      id={id}
+      type={type}
+      disabled={disabled}
+      onClick={onClick}
+      className={`w-[16rem] h-[5rem] text-[1.8rem]  bg-gray-33  disabled:bg-gray-a6 focus:bg-gray-d9 focus:text-gray-33 focus:border focus:border-gray-c9 ${className} ${isChange ? "text-gray-33 rounded-[50px]" : "text-white rounded-lg"}`}
+    >
+      {children}
+    </button>
+  );
+};
 
 export default Button;
